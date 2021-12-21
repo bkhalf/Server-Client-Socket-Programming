@@ -1,0 +1,16 @@
+GET / get.txt HTTP/1.1
+HOST : Localhost
+Accept : txt, html, png
+
+POST / post.txt HTTP/1.1
+HOST : Localhost
+Accept : txt, html, png
+
+GET / non.txt HTTP/1.1
+HOST : Localhost
+Accept : txt, html, png
+
+POST / non.txt HTTP/1.1
+HOST : Localhost
+Accept : txt, html, png
+
